@@ -2,4 +2,6 @@
 
 	module.exports = (h)->
 		(func)->
-			h 'script', {type: 'text/javascript'}, "(#{func.toString()})()"
+			element = h 'script', {type: 'text/javascript'}, "(#{func.toString()})()"
+			element.innerHTML = element.innerHTML.replace(/&amp;/g, '&')
+			element
