@@ -51,12 +51,12 @@
 
 		desired_output = [
 			'<script type="text/javascript">(function () {'
-			'      return 1 && 2;'
+			'      return 1 && 2 < 3 && 5 > 4;'
 			'    })()</script>'
 		].join '\n'
 
 		func = ->
-			1 and 2
+			1 and 2 < 3 and 5 > 4
 
 		actual_output = meta.script(func).outerHTML
 
