@@ -9,6 +9,7 @@
     "coffeetape": "^1.0.1",
     "hyperscript": "^1.4.7",
     "ramda": "^0.21.0",
+    "rimraf": "^2.5.4",
     "tape": "^4.6.0"
   },
   "keywords": [
