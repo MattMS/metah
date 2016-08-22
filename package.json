@@ -29,5 +29,5 @@
     "prepublish": "coffee -c ./",
     "test": "coffeetape ./test/**/*.coffee.md"
   },
-  "version": "0.1.4"
+  "version": "0.2.0"
 }
