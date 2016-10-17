@@ -9,7 +9,7 @@
 
 ## Relative imports
 
-	meta = require('../')(h)
+	meta = require('../main')(h)
 
 
 ## Run tests

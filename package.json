@@ -18,16 +18,16 @@
   ],
   "homepage": "https://github.com/MattMS/metah#readme",
   "license": "ISC",
-  "main": "index.js",
+  "main": "main.js",
   "name": "metah",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MattMS/metah.git"
   },
   "scripts": {
-    "clean": "rimraf *.js test/*.js",
+    "clean": "rimraf *.js ./*/*.js",
     "prepublish": "coffee -c ./",
-    "test": "coffeetape ./test/**/*.coffee.md"
+    "test": "coffeetape ./*/test.coffee.md"
   },
   "version": "0.2.0"
 }
