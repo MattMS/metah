@@ -8,4 +8,5 @@
 		link_css: require('./link_css/main')(h)
 		link_script: require('./link_script/main')(h)
 		script: require('./script/main')(h)
+		title: require('./title/main')(h)
 		viewport: require('./viewport/main')(h)
