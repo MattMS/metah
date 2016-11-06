@@ -17,7 +17,7 @@
 	tape 'meta viewport tag', (t)->
 		t.plan 1
 
-		desired_output = '<meta content="width=device-width, initial-scale=1" name="viewport"></meta>'
+		desired_output = '<meta content="width=device-width, initial-scale=1" name="viewport">'
 
 		actual_output = meta.viewport().outerHTML
 

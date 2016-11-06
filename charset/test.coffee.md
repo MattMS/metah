@@ -17,7 +17,7 @@
 	tape 'meta charset tag', (t)->
 		t.plan 1
 
-		desired_output = '<meta charset="utf-8"></meta>'
+		desired_output = '<meta charset="utf-8">'
 
 		actual_output = meta.charset().outerHTML
 

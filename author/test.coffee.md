@@ -17,7 +17,7 @@
 	tape 'meta author tag', (t)->
 		t.plan 1
 
-		desired_output = '<meta content="My name" name="author"></meta>'
+		desired_output = '<meta content="My name" name="author">'
 
 		actual_output = meta.author('My name').outerHTML
 

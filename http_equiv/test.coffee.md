@@ -17,7 +17,7 @@
 	tape 'meta http-equiv tag', (t)->
 		t.plan 1
 
-		desired_output = '<meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>'
+		desired_output = '<meta content="IE=edge" http-equiv="X-UA-Compatible">'
 
 		actual_output = meta.http_equiv().outerHTML
 

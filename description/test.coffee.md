@@ -17,7 +17,7 @@
 	tape 'meta description tag', (t)->
 		t.plan 1
 
-		desired_output = '<meta content="My description" name="description"></meta>'
+		desired_output = '<meta content="My description" name="description">'
 
 		actual_output = meta.description('My description').outerHTML
 
